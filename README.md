@@ -16,6 +16,10 @@
 
 根据岗位要求和候选人材料生成面试提纲、追问、岗位相关评价锚点和记录表；默认 45 分钟 HR 初面，不预设评分或作录用决定。可在 [interview-builder/SKILL.md](interview-builder/SKILL.md) 查看和编辑。
 
+## employee-exit：员工离职与劳动关系退出
+
+支持离职访谈、协商解除、合规路径核查、补偿测算及交接准备。默认中国大陆，具体规则须按所在地和处理日期核验，并由法务复核。可查看和编辑 [employee-exit/SKILL.md](employee-exit/SKILL.md)。
+
 ## 在 Codex 中安装
 
 在自己的 Codex 对话中发送：
@@ -34,6 +38,10 @@
 
 > 请从 https://github.com/alverbbb/HR-skill/tree/main/interview-builder 安装 interview-builder 技能。
 
+安装 employee-exit 时，在 Codex 对话中发送：
+
+> 请从 https://github.com/alverbbb/HR-skill/tree/main/employee-exit 安装 employee-exit 技能。
+
 安装后，在下一轮对话中即可使用。例如：
 
 > 使用 jd-builder 整理以下招聘需求，列出岗位职责、能力要求、关键词、必须项、加分项和可培养项；缺失信息请标注待确认。  
@@ -51,8 +59,12 @@
 
 > 使用 interview-builder，根据以下岗位要求和候选人简历，准备 45 分钟 HR 初面提纲，包括统一核心题、个性化核实题、追问和空白面试记录表。
 
+使用 employee-exit 的示例：
+
+> 使用 employee-exit，帮我梳理以下离职场景的事实、待核实事项、沟通准备和补偿测算；请核查适用地最新官方规则。
+
 ## 下载
 
-也可以[下载整个仓库的 ZIP](https://github.com/alverbbb/HR-skill/archive/refs/heads/main.zip)，解压后可分别找到 `jd-builder/SKILL.md` 和 `resume-tagger/SKILL.md`。也可单独下载 [hr-talking 技能包](hr-talking.zip)或 [interview-builder 技能包](interview-builder.zip)。ZIP 便于保存和分享，但下载并解压本身不会自动安装技能；在 Codex 中使用上述安装提示即可。
+也可以[下载整个仓库的 ZIP](https://github.com/alverbbb/HR-skill/archive/refs/heads/main.zip)，解压后可分别找到 `jd-builder/SKILL.md` 和 `resume-tagger/SKILL.md`。也可单独下载 [hr-talking 技能包](hr-talking.zip)、[interview-builder 技能包](interview-builder.zip)或 [employee-exit 技能包](employee-exit.zip)。ZIP 便于保存和分享，但下载并解压本身不会自动安装技能；在 Codex 中使用上述安装提示即可。
 
 技能内容可在 [jd-builder/SKILL.md](jd-builder/SKILL.md) 查看和编辑。
